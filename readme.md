@@ -38,4 +38,4 @@ docker compose up -d
 
 ## Test API
 
-Test API using the todo.http file.
+Test API using the todo.http file. The token has tobe updated manually by copy pasting from the response to access the todos endpoint.
