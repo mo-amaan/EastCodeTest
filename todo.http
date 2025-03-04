@@ -1,5 +1,5 @@
 ### Register 
-POST http://localhost:4005/auth/register 
+POST http://localhost:4005/auth/register
 Content-Type: application/json
 
 {
@@ -7,7 +7,7 @@ Content-Type: application/json
 }
 
 ### Login 
-POST http://localhost:4005/auth/login 
+POST http://localhost:4005/auth/login
 Content-Type: application/json
 
 {
@@ -15,25 +15,25 @@ Content-Type: application/json
 }
 
 ### Fetch all todos  
-GET http://localhost:4005/todos 
-Authorization: 
+GET http://localhost:4005/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQxMDUwNzY5LCJleHAiOjE3NDEwNTQzNjl9.VqH4xJS2vnm9BcmuZpuRumL53U6KbZumrCgurrArMbs
 
 ### Creates a new  
-POST http://localhost:4005/todos 
-Authorization: 
+POST http://localhost:4005/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQxMDUwNzY5LCJleHAiOjE3NDEwNTQzNjl9.VqH4xJS2vnm9BcmuZpuRumL53U6KbZumrCgurrArMbs
 
 {
 "task": "Finish coding the projects"
 }
 
 ### Update a todo  
-PUT http://localhost:4005/todos/2 
-Authorization: 
+PUT http://localhost:4005/todos/2
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQxMDUwNzY5LCJleHAiOjE3NDEwNTQzNjl9.VqH4xJS2vnm9BcmuZpuRumL53U6KbZumrCgurrArMbs
 
 {
 "completed": 1
 }
 
 ### Delete a todo  
-DELETE http://localhost:4005/todos/2 
-Authorization: 
+DELETE http://localhost:4005/todos/2
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQxMDUwNzY5LCJleHAiOjE3NDEwNTQzNjl9.VqH4xJS2vnm9BcmuZpuRumL53U6KbZumrCgurrArMbs
