@@ -14,11 +14,11 @@ Content-Type: application/json
 "username": "test@test.com", "password": "1234512345"
 }
 
-### Fetch all todos GET /TODOS (protected) 
+### Fetch all todos  
 GET http://localhost:4005/todos 
 Authorization: 
 
-### Creates a new todo POST /TODOS (protected) 
+### Creates a new  
 POST http://localhost:4005/todos 
 Authorization: 
 
@@ -26,7 +26,7 @@ Authorization:
 "task": "Finish coding the projects"
 }
 
-### Update a todo PUT /TODOS/:ID (protected) 
+### Update a todo  
 PUT http://localhost:4005/todos/2 
 Authorization: 
 
@@ -34,6 +34,6 @@ Authorization:
 "completed": 1
 }
 
-### Delete a todo DELETE /TODOS/:ID (protected) 
+### Delete a todo  
 DELETE http://localhost:4005/todos/2 
 Authorization: 
